@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+.navbar{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.navbar a{
+    color: black;
+    font-size: 30px;
+}
+
+.collapse{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navbar-nav li a{
+    font-size: 20px;
+    color: black;
+}
+.navbar-nav li a:hover{
+    border-bottom: 2px solid orange;
+    color: hotpink;
+}
+.text-section{
+    font-size: 20px;
+}
+.text-section h2{
+    font-size: 25px;
+}
+.btn{
+    background-color: #3BE8B0;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #34D19D;
+  }
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+@keyframes moveTopToBottom {
+    0% {
+      transform: translateY(0); /* Start at original position */
+    }
+    50% {
+        transform: translateY(-25px); /* Move 50px down */
+    }
+    100% {
+        transform: translateY(0px);; /* Move 100px down */
+    }
+  }
+  
+  .tictoe {
+    animation: moveTopToBottom 5s ease-in infinite alternate;
+    width: 100%;
+  }
+  
+.img-section :hover{
+    transform: scale(1.02);
+    transition: all 1s;
+}
+.img{
+    width: 100%;
+}
+.img :hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 40px grey;
+    transition: all 1s;
+}
+.feedback{
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px;
+    border-color: grey;
+}
+#submit{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    margin-top: 10px;
+}
+.text1{
+    text-align: center;
+    margin-top: 10px;
+}
+.text{
+    font-size: 50px;
+}
+.text:hover{
+    border-bottom: 2px solid orange;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.container-fluid{
+    background-color:hotpink;
+    padding: 10px;
+    color: black;
+}
+.container-fluid i{
+    margin-left: 15px;
+}
+.container-fluid small{
+    color: black;
+    text-align: center;
+}
+.gamer{
+    margin-left: 780px;
+}
+
+@keyframes moveTopToBottom {
+    0% {
+        transform: translateY(0);
+        /* Start at original position */
+    }
+
+    50% {
+        transform: translateY(-25px);
+        /* Move 50px down */
+    }
+
+    100% {
+        transform: translateY(0px);
+        ;
+        /* Move 100px down */
+    }
+}
+
+.img img {
+    animation: moveTopToBottom 5s ease-in infinite alternate;
+    
+}

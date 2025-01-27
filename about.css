@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+.navbar {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar a {
+    color: black;
+    font-size: 30px;
+}
+
+.collapse {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbar-nav li a {
+    font-size: 20px;
+    color: black;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 2px solid orange;
+    color: hotpink;
+}
+
+.img img {
+    width: 80%;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes moveTopToBottom {
+    0% {
+      transform: translateY(0); /* Start at original position */
+    }
+    50% {
+        transform: translateY(-25px); /* Move 50px down */
+    }
+    100% {
+        transform: translateY(0px);; /* Move 100px down */
+    }
+  }
+  
+  .tictoe {
+    animation: moveTopToBottom 5s ease-in infinite alternate;
+    width: 100%;
+  }
+
+  .about_sec{
+    background-image: url('back.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+.about-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section {
+    margin-bottom: 2rem;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.about-section p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.meet {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.team-section{
+    text-align: center;
+    margin-top: 12em;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 15px;
+    align-items: center;
+
+}
+.card-body{
+    color: black;
+}
+.card-body a i{
+    color: black;
+}
+
+.card-text{
+    text-align: start;
+    font-size: 15px;
+}
+.team-section .meet {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.team-section .meet span:hover{
+    border-bottom: 2px solid orange;
+}
+.cards :hover{
+    transform: scale(1.01);
+    transition: all 1s;
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.container-fluid p{
+    margin-top: 2em;
+}
